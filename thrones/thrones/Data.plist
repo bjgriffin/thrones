@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Characters</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Khaleesi</string>
+			<key>image</key>
+			<string>Khaleesi</string>
+			<key>detail</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Jon Snow</string>
+			<key>image</key>
+			<string>Jon</string>
+			<key>detail</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Tyrion Lannister</string>
+			<key>image</key>
+			<string>Tyrion</string>
+			<key>detail</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Jaime Lannister</string>
+			<key>image</key>
+			<string>Jaime</string>
+			<key>detail</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Petyr Baelish</string>
+			<key>image</key>
+			<string>Petyr</string>
+			<key>detail</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Gregor Clegane</string>
+			<key>image</key>
+			<string>Gregor</string>
+			<key>detail</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Hodor</string>
+			<key>image</key>
+			<string>Hodor</string>
+			<key>detail</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>
