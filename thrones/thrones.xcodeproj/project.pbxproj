@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		36035E0B1C6AD59900072F77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36035E0A1C6AD59900072F77 /* AppDelegate.swift */; };
-		36035E0D1C6AD59900072F77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36035E0C1C6AD59900072F77 /* ViewController.swift */; };
+		36035E0D1C6AD59900072F77 /* CharacterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36035E0C1C6AD59900072F77 /* CharacterTableViewController.swift */; };
 		36035E101C6AD59900072F77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36035E0E1C6AD59900072F77 /* Main.storyboard */; };
 		36035E131C6AD59900072F77 /* thrones.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 36035E111C6AD59900072F77 /* thrones.xcdatamodeld */; };
 		36035E151C6AD59900072F77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36035E141C6AD59900072F77 /* Assets.xcassets */; };
@@ -17,6 +17,10 @@
 		36035E2E1C6AD59900072F77 /* thronesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36035E2D1C6AD59900072F77 /* thronesUITests.swift */; };
 		36035E3C1C6AD78000072F77 /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36035E3B1C6AD78000072F77 /* Data.plist */; };
 		36035E3E1C6ADC6700072F77 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36035E3D1C6ADC6700072F77 /* Character.swift */; };
+		369482701C7053AD006BF9B2 /* CharacterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3694826F1C7053AD006BF9B2 /* CharacterTableViewCell.swift */; };
+		369482721C705725006BF9B2 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369482711C705725006BF9B2 /* Common.swift */; };
+		369482741C7072AD006BF9B2 /* CharacterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369482731C7072AD006BF9B2 /* CharacterDetailViewController.swift */; };
+		369482761C707597006BF9B2 /* UIImageView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369482751C707597006BF9B2 /* UIImageView+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +43,7 @@
 /* Begin PBXFileReference section */
 		36035E071C6AD59900072F77 /* thrones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thrones.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36035E0A1C6AD59900072F77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		36035E0C1C6AD59900072F77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		36035E0C1C6AD59900072F77 /* CharacterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableViewController.swift; sourceTree = "<group>"; };
 		36035E0F1C6AD59900072F77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		36035E121C6AD59900072F77 /* thrones.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = thrones.xcdatamodel; sourceTree = "<group>"; };
 		36035E141C6AD59900072F77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +57,10 @@
 		36035E2F1C6AD59900072F77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36035E3B1C6AD78000072F77 /* Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Data.plist; sourceTree = "<group>"; };
 		36035E3D1C6ADC6700072F77 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		3694826F1C7053AD006BF9B2 /* CharacterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterTableViewCell.swift; sourceTree = "<group>"; };
+		369482711C705725006BF9B2 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		369482731C7072AD006BF9B2 /* CharacterDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterDetailViewController.swift; sourceTree = "<group>"; };
+		369482751C707597006BF9B2 /* UIImageView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				36035E0A1C6AD59900072F77 /* AppDelegate.swift */,
-				36035E0C1C6AD59900072F77 /* ViewController.swift */,
+				36035E0C1C6AD59900072F77 /* CharacterTableViewController.swift */,
 				36035E0E1C6AD59900072F77 /* Main.storyboard */,
 				36035E141C6AD59900072F77 /* Assets.xcassets */,
 				36035E161C6AD59900072F77 /* LaunchScreen.storyboard */,
@@ -112,6 +120,10 @@
 				36035E3B1C6AD78000072F77 /* Data.plist */,
 				36035E111C6AD59900072F77 /* thrones.xcdatamodeld */,
 				36035E3D1C6ADC6700072F77 /* Character.swift */,
+				3694826F1C7053AD006BF9B2 /* CharacterTableViewCell.swift */,
+				369482711C705725006BF9B2 /* Common.swift */,
+				369482731C7072AD006BF9B2 /* CharacterDetailViewController.swift */,
+				369482751C707597006BF9B2 /* UIImageView+Ext.swift */,
 			);
 			path = thrones;
 			sourceTree = "<group>";
@@ -266,8 +278,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36035E0D1C6AD59900072F77 /* ViewController.swift in Sources */,
+				369482761C707597006BF9B2 /* UIImageView+Ext.swift in Sources */,
+				36035E0D1C6AD59900072F77 /* CharacterTableViewController.swift in Sources */,
+				369482721C705725006BF9B2 /* Common.swift in Sources */,
 				36035E0B1C6AD59900072F77 /* AppDelegate.swift in Sources */,
+				369482701C7053AD006BF9B2 /* CharacterTableViewCell.swift in Sources */,
+				369482741C7072AD006BF9B2 /* CharacterDetailViewController.swift in Sources */,
 				36035E131C6AD59900072F77 /* thrones.xcdatamodeld in Sources */,
 				36035E3E1C6ADC6700072F77 /* Character.swift in Sources */,
 			);
@@ -498,6 +514,7 @@
 				36035E341C6AD59900072F77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36035E351C6AD59900072F77 /* Build configuration list for PBXNativeTarget "thronesTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +523,7 @@
 				36035E371C6AD59900072F77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36035E381C6AD59900072F77 /* Build configuration list for PBXNativeTarget "thronesUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +532,7 @@
 				36035E3A1C6AD59900072F77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

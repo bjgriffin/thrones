@@ -6,7 +6,7 @@
 	<array>
 		<dict>
 			<key>name</key>
-			<string>Khaleesi</string>
+			<string>Daenerys (Khaleesi) Targaryen</string>
 			<key>image</key>
 			<string>Khaleesi</string>
 			<key>detail</key>
@@ -30,14 +30,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Jaime Lannister</string>
-			<key>image</key>
-			<string>Jaime</string>
-			<key>detail</key>
-			<string></string>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Petyr Baelish</string>
 			<key>image</key>
 			<string>Petyr</string>
@@ -46,17 +38,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Gregor Clegane</string>
+			<string>Bronn</string>
 			<key>image</key>
-			<string>Gregor</string>
+			<string>Bronn</string>
 			<key>detail</key>
 			<string></string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Hodor</string>
+			<string>Cersei Lannister</string>
 			<key>image</key>
-			<string>Hodor</string>
+			<string>Cersei</string>
 			<key>detail</key>
 			<string></string>
 		</dict>
