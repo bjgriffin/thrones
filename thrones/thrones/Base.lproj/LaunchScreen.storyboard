@@ -16,8 +16,20 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="aYg-Ru-wP8">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <animations/>
+                            </imageView>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="aYg-Ru-wP8" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="0tw-r3-c6I"/>
+                            <constraint firstItem="aYg-Ru-wP8" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="KFw-Ui-yw4"/>
+                            <constraint firstItem="aYg-Ru-wP8" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="oi0-p8-jHf"/>
+                            <constraint firstItem="aYg-Ru-wP8" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" id="qaX-Ry-qOh"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -25,4 +37,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="background" width="1080" height="1920"/>
+    </resources>
 </document>
