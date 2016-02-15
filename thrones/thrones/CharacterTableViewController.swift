@@ -36,9 +36,7 @@ class CharacterTableViewController: UITableViewController {
         guard let cell = tableView.dequeueReusableCellWithIdentifier(characterCell, forIndexPath: indexPath) as? CharacterTableViewCell else { return UITableViewCell() }
         
         let imageName = characters?[indexPath.row].image ?? ""
-        cell.characterImageView.image = UIImage(named: imageName)
-        
-        cell.characterImageView.roundImage()
+        cell.characterImageView.setImageView(imageName, round: true)
         
         return cell
     }

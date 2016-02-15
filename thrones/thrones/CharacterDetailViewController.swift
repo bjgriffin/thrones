@@ -20,8 +20,7 @@ class CharacterDetailViewController: UIViewController {
     
     private func setCharacterInfo() {
         let imageName = character?.image ?? ""
-        characterImageView.image = UIImage(named: imageName)
-        characterImageView.roundImage()
+        characterImageView.setImageView(imageName, round: true)
         
         nameLabel.text = character?.name
         detailsTextView.text = character?.detail
