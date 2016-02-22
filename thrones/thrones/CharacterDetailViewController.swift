@@ -13,17 +13,27 @@ class CharacterDetailViewController: UIViewController {
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var detailsTextView: UITextView!
     var character : Character?
-    
+    var updateInfo : (() -> Void)?
+
     override func viewDidLoad() {
-        setCharacterInfo()
+        super.viewDidLoad()
+        updateInfo = {
+            self.setCharacterInfo()
+        }
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        updateInfo?()
     }
     
     private func setCharacterInfo() {
         let imageName = character?.image ?? ""
-        characterImageView.image = UIImage(named: imageName)
-        characterImageView.roundImage()
+        characterImageView?.image = UIImage(named: imageName)
+        characterImageView?.roundImage()
         
-        nameLabel.text = character?.name
-        detailsTextView.text = character?.detail
+        nameLabel?.text = character?.name
+        detailsTextView?.text = character?.detail
     }
+    
 }

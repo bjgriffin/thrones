@@ -10,11 +10,16 @@ import UIKit
 
 class CharacterTableViewController: UITableViewController {
     var characters: [Character]?
+    var characterDetailViewController: CharacterDetailViewController?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        characters = (UIApplication.sharedApplication().delegate as? AppDelegate)?.characters
+        DataManager.sharedInstance.loadCharacters {
+            characters in
+            self.characters = characters
+            self.tableView.reloadData()
+        }
     }
 
     override func didReceiveMemoryWarning() {

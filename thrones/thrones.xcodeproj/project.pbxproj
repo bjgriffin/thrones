@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3600F0411C7A465D005C4879 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3600F0401C7A465D005C4879 /* DataManager.swift */; };
 		36035E0B1C6AD59900072F77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36035E0A1C6AD59900072F77 /* AppDelegate.swift */; };
 		36035E0D1C6AD59900072F77 /* CharacterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36035E0C1C6AD59900072F77 /* CharacterTableViewController.swift */; };
 		36035E101C6AD59900072F77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36035E0E1C6AD59900072F77 /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3600F0401C7A465D005C4879 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		36035E071C6AD59900072F77 /* thrones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thrones.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36035E0A1C6AD59900072F77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36035E0C1C6AD59900072F77 /* CharacterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableViewController.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				369482711C705725006BF9B2 /* Common.swift */,
 				369482731C7072AD006BF9B2 /* CharacterDetailViewController.swift */,
 				369482751C707597006BF9B2 /* UIImageView+Ext.swift */,
+				3600F0401C7A465D005C4879 /* DataManager.swift */,
 			);
 			path = thrones;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 				369482701C7053AD006BF9B2 /* CharacterTableViewCell.swift in Sources */,
 				369482741C7072AD006BF9B2 /* CharacterDetailViewController.swift in Sources */,
 				36035E131C6AD59900072F77 /* thrones.xcdatamodeld in Sources */,
+				3600F0411C7A465D005C4879 /* DataManager.swift in Sources */,
 				36035E3E1C6ADC6700072F77 /* Character.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -13,11 +13,10 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    var characters: [Character]?
-
+    let cache = NSCache()
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        loadCharacters()
         return true
     }
 
@@ -42,23 +41,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
         // Saves changes in the application's managed object context before the application terminates.
-    }
-    
-    func loadCharacters() {
-        guard let path = NSBundle.mainBundle().pathForResource("Data", ofType: "plist") else { return }
-        
-        let content = NSDictionary(contentsOfFile: path)
-        if let plistCharacters = content?.objectForKey("Characters") as? [NSDictionary] {
-            characters = []
-            for plistCharacter in plistCharacters {
-                let character = Character()
-                character.name = plistCharacter.objectForKey("name") as? String
-                character.image = plistCharacter.objectForKey("image") as? String
-                character.detail = plistCharacter.objectForKey("detail") as? String
-
-                characters?.append(character)
-            }
-        }
     }
 
 }
